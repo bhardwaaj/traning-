@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(
+        rgba(4,9,30,0.6),rgba(4,9,30,0.6)
+    ),url(imagedata/newyork.png);
+    background-size: cover;
+}
+
+.fname:hover{
+    background: transparent;
+    transition: 0.3s;
+}.lname:hover{
+    background: transparent;
+    transition: 0.3s;
+}.email:hover{
+    background: transparent;
+    transition: 0.3s;
+}.number:hover{
+    background: transparent;
+    transition: 0.3s;
+}
+
+
+
+*{
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    color: red;
+    transition: 0.3s;
+}
+.rag{
+    background: rgba(0,0,0,0.6);
+    border-radius: 120px;
+    text-align: center;
+}
+.rag .fname{
+    height: 30px;
+    width: 155px;
+    text-align: center;
+    color: red;
+    border-radius: 100px;
+}
+.rag .lname{
+    height: 30px;
+    width: 155px;
+    text-align: center;
+    color: red;;
+    border-radius: 100px;
+    
+}
+.rag .email{
+    height: 30px;
+    width: 180px;
+    border-radius: 120px;
+    text-align: center;
+   color: red;;
+  
+}
+
+/* box animation */
+
+
+.rag .number{
+    height: 30px;
+    width: 180px;
+    border-radius: 120px;
+    text-align: center;
+    color: red;;
+    
+}
+
+/*h2 tag ke liye*/
+h2{
+    text-align:center;
+    color: wheat;
+    font-size: small;
+}
+.rag .select{
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    background: transparent;
+    color: red;;
+    font-family:sans-serif;
+    border-radius: 80px;
+    
+}
+
+.course{
+    height: 30px;
+    width: 155px;
+    text-align: center;
+    color: red;;
+    border-radius: 100px;
+    background: transparent;
+}
+.course:hover{
+    color: red;
+}
+.rag button{
+background: transparent;
+width: 300px;
+height: 30px;
+border: 1px solid blue;
+color: red;
+border-radius: 120px;
+margin: 40px;
+}
+.date,.months,.years{
+    height: 30px;
+    width: 115px;
+    border-radius: 100px;
+    background: transparent;
+    color: red;
+}
+
+.icons
+{
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    font-size:30px;
+    background: transparent;
+    text-decoration: none;
+}
+.icons .fa{
+    color: black;
+    text-decoration: none;
+}
+.shadow{
+    text-align: center;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 11px;
+}

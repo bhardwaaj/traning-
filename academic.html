@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="academic.css">
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="academic.html">
+                    <span class="icon">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Home</span>
+                </a>
+            </li>
+            <li class="list ">
+                <a href="aryan.html">
+                    <span class="icon">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Classes</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Assighments</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Marks</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Attendence</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="afterlogin.html">
+                    <span class="icon">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+                    </span>
+                    <span class="title">Back</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="toggle"><i class="fa fa-bars open" aria-hidden="true"></i>
+        <i class="fa fa-times close" aria-hidden="true"></i>
+    </div>
+
+<script>
+let menutoggle = document.querySelector('.toggle');
+let navigation = document.querySelector('.navigation');
+menutoggle.onclick = function(){
+    menutoggle.classList.toggle('active');
+    navigation.classList.toggle('active');
+}
+
+
+    let list = document.querySelectorAll(".list");
+    for (let i = 0;i<list.length;i++){
+        list[i].onclick = function(){
+            let j = 0;
+            while(j<list.length){
+                list[j++].className = 'list';
+            }
+            list[i].className = 'list active';
+        }
+    }
+</script>
+
+</body>
+</html>

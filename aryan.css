@@ -1,0 +1,22 @@
+body{
+    background: url(imagedata/newyork.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: red;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav{
+    text-align: right;
+    text-decoration: none;
+}
+.nav_links{
+    display: inline-block;
+    text-align: right;
+    font-size: 20px;
+}
+.table{
+    background:transparent;
+}

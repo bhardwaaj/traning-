@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),
+    url(imagedata/user4.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: right;
+    padding-top: 30px;
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: wheat;
+    padding-right: 10px;
+}
+.nav p{
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+}
