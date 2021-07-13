@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singn-up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="singup.css">
+</head>
+<body>
+    <section class="singupbox">
+        <form action="singup.php" method="POST">
+            <h1>
+                Registration form
+            </h1>
+            <div class="name">
+                <input type="text" class="fname" placeholder="First Name" name="firstname">
+                <input type="text" class="lname" placeholder="Last Name"  name="lastname">
+            </div><br>
+            <div class="user">
+                <input type="text" class="username" placeholder="Username" name="username">
+                <input type="email" class="email" placeholder="E-mail" name="email">
+            </div><br>
+            <div>
+                <input type="password" placeholder="Password" class="pwd1" name="password">
+                <input type="password" placeholder="Re-Enter Password" class="pwd2">
+            </div>
+            <div class="gender">
+                <input type="radio" value="Male">
+                <label class="male">Male</label>
+                <input type="radio" value="Female">
+                <label class="male">Female</label>
+                <input type="radio" value="other">
+                <label class="male">Other</label> 
+            </div>
+            <button class="btn">Sign Up</button>
+            <a href="login.html" class="alredyac">
+                <h3>I have alredy an account</h3>
+            </a>
+        </form>
+        <div class="icons">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+    </div>
+    <p class="shadow">Made with <i class="fa fa-heart-o"></i> by Shadow</p>
+    </section>
+</body>
+</html>

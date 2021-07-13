@@ -1,0 +1,132 @@
+*{
+    font-family: sans-serif;
+}
+h1{
+    color: blue;
+    padding: 10px;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url(imagedata/certificate.jpg);
+    background-size: cover;
+}
+.singupbox{
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgba(0,0,0,0.6);
+    background-position: center;
+    border-radius: 100px 100px 100px 100px;
+}
+.name .fname{
+    padding: 5px;
+ height: 30px;
+ width: 250px;
+ border-radius: 110px;
+ text-align: center;
+ color: red;
+ text-transform: inheritss;
+ background: transparent;
+ border: 1px solid red;
+}
+.name .lname{
+    padding: 5px;
+    height: 30px;
+    width: 250px;
+    border-radius: 110px;
+    text-align: center;
+    color: red;
+    background: transparent;
+    border: 1px solid red;
+   }
+.username{
+    padding: 5px;
+    height: 30px;
+    width: 245px;
+    border-radius: 110px;
+    text-align: center;
+    color: red;
+    text-transform: inheritss;
+    background: transparent;
+    border: 1px solid red;
+}
+.email{
+    padding: 5px;
+    height: 30px;
+    width: 245px;
+    border-radius: 110px;
+    text-align: center;
+    color: red;
+    text-transform: inheritss;
+    background: transparent;
+    border: 1px solid red;
+}
+.gender{
+    color: red;
+    padding: 10px;
+}
+.alredyac
+{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+}
+.btn{
+    background:transparent;
+    height: 30px;
+    color: red;
+    width: 300px;
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid blue;
+}
+.icons{
+    font-size: xx-large;
+}
+.shadow{
+    color: wheat;
+    font-size: 10px;
+}
+.pwd1,.pwd2{
+    padding: 5px;
+    height: 30px;
+    width: 245px;
+    border-radius: 110px;
+    text-align: center;
+    color: red;
+    text-transform: inheritss;
+    background: transparent;
+    border: 1px solid red;
+}
+/*transation effect using hover*/
+.fname:hover{
+    background: wheat;
+    transition: 1s;
+}
+.lname:hover{
+    background: wheat;
+    transition: 1s;
+}
+.username:hover{
+    background: wheat;
+    transition: 1s;
+}
+.email:hover{
+    background: wheat;
+    transition: 1s;
+}
+.pwd1:hover{
+    background: wheat;
+    transition: 1s;
+}
+.pwd2:hover{
+    background: wheat;
+    transition: 1s;
+}
+.btn:hover{
+    background: skyblue;
+    transition: 0.5s;
+}
+h3:hover{
+    color: blue;
+    transition: 0.5s;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image:url(background2.jpg) ;
+    background-size: cover;
+}
+.h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: aqua;
+}
+.nbox{
+    background-color: rgba(0,0,0,0.6);
+    width: 400px;
+    height: 300px;
+    border-radius: 30px 30px 30px 30px;
+   
+}

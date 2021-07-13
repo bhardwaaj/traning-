@@ -1,0 +1,94 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),
+    url(imagedata/background.jpg);
+    background-size: cover;
+}
+.login-box{
+    background-position: center;
+    text-align: center;
+    border: 120px;
+    background-color: rgba(0,0,0,0.3);
+    top: 50%;
+    left: 50%;
+    border-radius: 120px 120px 120px 120px;
+}
+.h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: wheat;
+}
+.username{
+    background-color: darkgrey;
+    border-radius: 120px;
+    height: 40px;
+    text-align: center;
+    width: 300px;
+}
+.pwd{
+    background-color: darkgrey;
+    border-radius: 120px;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+.login-btn{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    padding: 10px;
+    margin: 30px;
+    border-radius: 100px;
+    width: 150px;
+    color: wheat;
+    border: 1px solid blue;
+}
+.login-btn2{
+    background: transparent;
+    padding: 10px;
+    margin: 0;
+    border-radius: 100px;
+    width: 150px;
+    border: 1px solid red;
+}
+/*style all transition effect to username pwd and btn*/
+.login-btn:hover{
+    background:blue;
+    transition: 1s;
+}
+.login-btn2:hover{
+    background: red;
+    transition: 1s;
+}
+.username:hover{
+    background: lightgreen;
+    transition: 1s;
+}
+.pwd:hover{
+    background: lightgreen;
+    transition: 1s;
+}
+
+.icons
+{
+    text-align: center;
+    margin: 50px;
+    padding-top: 90px;
+    font-size:30px;
+    background: transparent;
+    text-decoration: none;
+}
+.shadow{
+    text-align: center;
+    color: wheat;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+.icons .fa{
+    color: black;
+    text-decoration: none;
+}
+.icons .fa fa-instagram:hover{
+    color: red;
+    transition: 1s;
+}
